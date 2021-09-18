@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "IntegrationTesting.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/IntegrationTesting.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegrationTesting.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IntegrationTesting.Shared/1.0.0": {
+      "type": "project",
+      "path": "../IntegrationTesting.Shared/IntegrationTesting.Shared.csproj",
+      "msbuildProject": "../IntegrationTesting.Shared/IntegrationTesting.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "IntegrationTesting.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LawrenceEze\\packages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Workspace\\IntegrationTesting\\IntegrationTesting.Service\\IntegrationTesting.Service.csproj",
+      "projectName": "IntegrationTesting.Service",
+      "projectPath": "C:\\Workspace\\IntegrationTesting\\IntegrationTesting.Service\\IntegrationTesting.Service.csproj",
+      "packagesPath": "C:\\Users\\LawrenceEze\\packages",
+      "outputPath": "C:\\Workspace\\IntegrationTesting\\IntegrationTesting.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\LawrenceEze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packages.definedcrowd.com:8443/repository/dev-nuget/": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Workspace\\IntegrationTesting\\IntegrationTesting.Shared\\IntegrationTesting.Shared.csproj": {
+              "projectPath": "C:\\Workspace\\IntegrationTesting\\IntegrationTesting.Shared\\IntegrationTesting.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

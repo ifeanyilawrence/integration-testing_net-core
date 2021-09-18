@@ -1,0 +1,12 @@
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\bin\Debug\netcoreapp3.1\IntegrationTesting.Service.deps.json
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\bin\Debug\netcoreapp3.1\IntegrationTesting.Service.dll
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\bin\Debug\netcoreapp3.1\IntegrationTesting.Service.pdb
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\bin\Debug\netcoreapp3.1\IntegrationTesting.Shared.dll
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\bin\Debug\netcoreapp3.1\IntegrationTesting.Shared.pdb
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\obj\Debug\netcoreapp3.1\IntegrationTesting.Service.csproj.AssemblyReference.cache
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\obj\Debug\netcoreapp3.1\IntegrationTesting.Service.AssemblyInfoInputs.cache
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\obj\Debug\netcoreapp3.1\IntegrationTesting.Service.AssemblyInfo.cs
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\obj\Debug\netcoreapp3.1\IntegrationTesting.Service.csproj.CoreCompileInputs.cache
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\obj\Debug\netcoreapp3.1\IntegrationTesting.Service.csproj.CopyComplete
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\obj\Debug\netcoreapp3.1\IntegrationTesting.Service.dll
+C:\Workspace\IntegrationTesting\IntegrationTesting.Service\obj\Debug\netcoreapp3.1\IntegrationTesting.Service.pdb
