@@ -84,10 +84,12 @@ namespace IntegrationTesting.Api.Tests
                 .Should()
                 .Be((int)HttpStatusCode.OK);
 
-            apiResult
-                .Value
-                .Should()
-                .Be(expectedResult);
+            //apiResult
+            //    .Value
+            //    .Should()
+            //    .Be(expectedResult);
+
+            Assert.AreEqual(expectedResult, apiResult.Value);
 
             _mockFetchData.Verify(exp => exp.GetRecords(), Times.Exactly(1));
         }
@@ -106,6 +108,9 @@ namespace IntegrationTesting.Api.Tests
             var apiResult = await _controllerUnderTest
                 .GetDataFromAPI() as ObjectResult;
 
+            //Func<Task> func = async () => await _controllerUnderTest.GetDataFromAPI();
+            //await func.Should().ThrowAsync<Exception>();
+
             // Assert
             apiResult
                 .Should()
@@ -119,9 +124,28 @@ namespace IntegrationTesting.Api.Tests
             apiResult
                 .Value
                 .Should()
-                .Be(expectedResult);
+                .BeEquivalentTo(expectedResult);
 
-            _mockFetchData.Verify(exp => exp.GetRecords(), Times.Exactly(1));
+            _mockHttpClient.Verify(exp => exp.GetStringAsync("/todogs/1"), Times.Exactly(1));
+        }
+
+        [TestMethod]
+        public async Task GetDataFromAPI_ShouldNotThrowException()
+        {
+            // Arrange
+            var expectedResult = _fixture.Create<DataResult>();
+
+            _mockHttpClient
+                .Setup(exec => exec.GetStringAsync("/todogs/1"))
+                .ReturnsAsync(JsonSerializer.Serialize(expectedResult));
+
+            // Act
+            Func<Task> func = async () => await _controllerUnderTest.GetDataFromAPI();
+
+            // Assert
+            await func.Should().NotThrowAsync<Exception>();
+
+            _mockHttpClient.Verify(exp => exp.GetStringAsync("/todogs/1"), Times.Exactly(1));
         }
     }
 }
