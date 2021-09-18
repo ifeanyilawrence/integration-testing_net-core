@@ -6,3 +6,4 @@ C:\Workspace\IntegrationTesting\IntegrationTesting.Shared\obj\Debug\netcoreapp3.
 C:\Workspace\IntegrationTesting\IntegrationTesting.Shared\obj\Debug\netcoreapp3.1\IntegrationTesting.Shared.csproj.CoreCompileInputs.cache
 C:\Workspace\IntegrationTesting\IntegrationTesting.Shared\obj\Debug\netcoreapp3.1\IntegrationTesting.Shared.dll
 C:\Workspace\IntegrationTesting\IntegrationTesting.Shared\obj\Debug\netcoreapp3.1\IntegrationTesting.Shared.pdb
+C:\Workspace\IntegrationTesting\IntegrationTesting.Shared\obj\Debug\netcoreapp3.1\IntegrationTesting.Shared.csproj.AssemblyReference.cache
